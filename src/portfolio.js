@@ -10,13 +10,13 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000, // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer having an experience of building Web applications with JavaScript / Reactjs / Expressjs / and some other cool libraries and frameworks."
   ),
   resumeLink: "Hello", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -37,7 +37,7 @@ const socialMediaLinks = {
   gmail: "hardik416@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -54,7 +54,7 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Integrate Google APIs with Django to create full-stack websites, enhancing functionality and user experience."
-    )
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -63,38 +63,38 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5",
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-js",
     },
     {
       skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fab fa-react",
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fab fa-python",
     },
     {
       skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vuejs"
+      fontAwesomeClassname: "fab fa-vuejs",
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    }
+      fontAwesomeClassname: "fab fa-java",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -106,14 +106,14 @@ const educationInfo = {
       schoolName: "Georgia Institute of Technology",
       logo: require("./assets/images/GT_logo.png"),
       subHeader: "Bachelors of Science in Computer Science",
-      duration: "August 2024 - Current"
+      duration: "August 2024 - Current",
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
-    }
-  ]
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -123,18 +123,18 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "40%"
+      progressPercentage: "40%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "50%"
-    }
+      progressPercentage: "50%",
+    },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -151,8 +151,8 @@ const workExperiences = {
       descBullets: [
         "Developing and Implementing user interfaces with VueJs, HTML, and CSS, significantly improving the functionality and visual appeal of the UniBuzzy app.",
         "Collaborating with the development team to introduce new features and refine user experience, achieving a notable 20% boost in user engagement.",
-        "Working closely with back-end and front-end leads to integrate application components, ensuring seamless functionality and optimized performance for a cohesive user experience."
-      ]
+        "Working closely with back-end and front-end leads to integrate application components, ensuring seamless functionality and optimized performance for a cohesive user experience.",
+      ],
     },
     {
       role: "Software Engineer Track - Accelerate Program",
@@ -163,8 +163,8 @@ const workExperiences = {
       descBullets: [
         "Worked on a full stack website by integrating concepts such as application security, full stack development and Generative AI.",
         "Developed workplace-related soft skills through collaboration and networking with experienced IBM technical leaders and mentors.",
-        "Chosen among top 5% of 10,000 applicants for the IBM Accelerate Program, underscoring exceptional qualifications and commitment to professional development."
-      ]
+        "Chosen among top 5% of 10,000 applicants for the IBM Accelerate Program, underscoring exceptional qualifications and commitment to professional development.",
+      ],
     },
     {
       role: "Software Engineering Fellow",
@@ -174,10 +174,10 @@ const workExperiences = {
       descBullets: [
         "Building 5+ AI Apps and APIs using Nextjs, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users",
         "Developing projects from design to deployment leading 4+ engineering fellows using MVC design patterns",
-        "Coaching by Amazon, Bloomberg and Capital One engineers on Agile, CI/CD, Git and microservice patterns"
-      ]
-    }
-  ]
+        "Coaching by Amazon, Bloomberg and Capital One engineers on Agile, CI/CD, Git and microservice patterns",
+      ],
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -185,7 +185,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -198,17 +198,17 @@ const bigProjects = {
       image: require("./assets/images/TasteOfATL.png"),
       projectName: "Taste of Atlanta",
       projectDesc:
-        "Discover the best dining experiences nearby and save your favorite spots with ease.",
+        "Website built to help you discover the best dining experiences nearby and lets you save your favorite spots with ease.",
       footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: "https://tasteofatlanta.onrender.com"
-        // }
+        {
+          name: "Github Repo",
+          url: "https://github.com/MchakkaGT/mainProject",
+        },
         //  you can add extra buttons here.
-      ]
-    }
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -225,14 +225,14 @@ const achievementSection = {
       subtitle: "Completed Certification from Udemy on Machine Learning",
       image: require("./assets/images/udemy_logo.jpg"),
       imageAlt: "Google Code-In Logo",
-      footerLink: []
+      footerLink: [],
     },
     {
       title: "React Basics",
       subtitle: "Completed Certification from Meta on Software Fundamentals",
       image: require("./assets/images/meta_logo.png"),
       imageAlt: "Meta Logo",
-      footerLink: []
+      footerLink: [],
     },
 
     {
@@ -244,12 +244,12 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.credly.com/badges/40a1071c-cc09-4a77-9fc4-6fc90629f84e/public_url"
-        }
-      ]
-    }
+          url: "https://www.credly.com/badges/40a1071c-cc09-4a77-9fc4-6fc90629f84e/public_url",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -264,16 +264,16 @@ const blogSection = {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -289,10 +289,10 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+      event_url: "https://www.facebook.com/events/2339906106275053/",
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -303,9 +303,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -314,7 +314,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -322,14 +322,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1 (470) 830-8801",
-  email_address: "hardik416@gmail.com"
+  email_address: "hardik416@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -352,5 +352,5 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
 };
