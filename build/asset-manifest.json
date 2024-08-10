@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.388df224.css",
-    "main.js": "/Personal-Portfolio/static/js/main.96cae810.js",
+    "main.js": "/Personal-Portfolio/static/js/main.be35672e.js",
     "static/css/487.bb36206c.chunk.css": "/Personal-Portfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.a2060dc0.chunk.js": "/Personal-Portfolio/static/js/487.a2060dc0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/Personal-Portfolio/static/css/990.c6a7ee28.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/UniBuzzy.png": "/Personal-Portfolio/static/media/UniBuzzy.ea1ac156dc74dcda9d87.png",
     "static/media/GT_logo.png": "/Personal-Portfolio/static/media/GT_logo.c8823f25e3d6e0af62db.png",
     "static/media/Montserrat-Regular.ttf": "/Personal-Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/Personal-Portfolio/static/media/resume.52e30a3fb2bb06fc7da9.pdf",
+    "static/media/resume.pdf": "/Personal-Portfolio/static/media/resume.a5b29c15daa9560aab15.pdf",
     "static/media/Agustina.woff": "/Personal-Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/TasteOfATL.png": "/Personal-Portfolio/static/media/TasteOfATL.ff3c973588a5783dd019.png",
     "static/media/manOnTable.svg": "/Personal-Portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -22,7 +22,7 @@
     "index.html": "/Personal-Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Personal-Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.388df224.css.map": "/Personal-Portfolio/static/css/main.388df224.css.map",
-    "main.96cae810.js.map": "/Personal-Portfolio/static/js/main.96cae810.js.map",
+    "main.be35672e.js.map": "/Personal-Portfolio/static/js/main.be35672e.js.map",
     "487.bb36206c.chunk.css.map": "/Personal-Portfolio/static/css/487.bb36206c.chunk.css.map",
     "487.a2060dc0.chunk.js.map": "/Personal-Portfolio/static/js/487.a2060dc0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/Personal-Portfolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.388df224.css",
-    "static/js/main.96cae810.js"
+    "static/js/main.be35672e.js"
   ]
 }
